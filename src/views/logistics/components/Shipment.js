@@ -33,8 +33,8 @@ const Shipment = ({translate}) => (
 
     <Body>
       <ul>
-        <li>{translate("informer.shipment.date.april24")}</li>
-        <li>{translate("informer.shipment.date.april25")}</li>
+        <li>{translate("informer.shipment.date.day_before_event")}</li>
+        <li>{translate("informer.shipment.date.event_day")}</li>
       </ul>
 
         <IconError /> <mark>{translate("informer.shipment.deliver")}</mark>

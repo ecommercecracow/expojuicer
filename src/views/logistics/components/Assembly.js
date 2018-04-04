@@ -19,8 +19,8 @@ const Assembly = ({translate}) => (
 
     <Body>
       <ul>
-        <li>{translate("informer.assembly.options.april24")}</li>
-        <li>{translate("informer.assembly.options.april25")}</li>
+        <li>{translate("informer.assembly.options.day_before_event")}</li>
+        <li>{translate("informer.assembly.options.event_day")}</li>
       </ul>
     </Body>
 
@@ -31,7 +31,7 @@ const Assembly = ({translate}) => (
 
     <Body>
       <ul>
-        <li>{translate("informer.assembly.april25")}</li>
+        <li>{translate("informer.assembly.event_day")}</li>
       </ul>
     </Body>
 
