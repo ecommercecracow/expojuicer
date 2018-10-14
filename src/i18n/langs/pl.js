@@ -114,6 +114,26 @@ export default {
 
   common : {
 
+    sales : {
+      starts : "start sprzedaży",
+      ends : "koniec sprzedaży",
+      net : "+23% VAT",
+      gross : "zawiera 23% VAT",
+      remaining : "Pozostało",
+      pcs : "sztuk",
+    
+    },
+    
+    actions : {
+      buy : "Kup teraz"
+    },
+
+    statuses : {
+      unavailable : "Niedostępne",
+      already_bought : "Już zakupione",
+      success : "Sukces!"
+    },
+
     langs : {
 
         pl : "polski",
@@ -355,7 +375,7 @@ export default {
     shipment: {
 
       address: "Adres do wysyłki:",
-      describe: "XIV Targi eHandlu, [nr stoiska, NAZWA FIRMY]",
+      describe: "XV Targi eHandlu, [nr stoiska, NAZWA FIRMY]",
       country: "",
       contact_number: "Numer kontaktowy dla Kuriera: +48 690 960 279",
       fill_in_form: "Przed nadaniem paczki, wypełnij ",
@@ -387,11 +407,11 @@ export default {
 
       options: {
 
-        day_before_event: "24 kwietnia (16:00 - 20:00)",
-        event_day: "25 kwietnia (8:00 - 9:30)"
+        day_before_event: "6 listopada  (16:00 - 20:00)",
+        event_day: "7 listopada (8:00 - 9:30)"
       },
 
-      event_day: "25 kwietnia (17:15 - 20:00)",
+      event_day: "7 listopada (17:15 - 20:00)",
 
 
      },
@@ -401,6 +421,65 @@ export default {
 
 
   resources: {
+
+    upgrades : {
+
+      name : "Zakup usługi dodatkowe",
+      menu : "Usługi dodatkowe",
+
+      booth : {
+        fullprint : {
+          name : "Kompleksowa zabudowa FULLPRINT",
+          description : "DOTYCZY TYLKO STOISK 3x2m. Chcesz przyjść na gotowe stoisko? Oto opcja dla Twojej firmy.",
+          specs : "Specyfikacja plików do druku: a) LADA - 100x100cm, TIFF, 120dpi (skala 1:1) b) ŚCIANKA - 300x250cm, TIFF, 120 dpi (skala 1:1)"
+        },
+        counter : {
+          name : "Lada z nadrukiem, wykładzina",
+          description : "Opcja dla firm, które dysponują własnymi elementami brandingowymi - jak na przykład reklamową ścianką tekstylną",
+          specs : "Specyfikacja pliku do druku 100x100cm, TIFF, 120dpi (skala 1:1)"
+        },
+        flooring : {
+          name : "Dodatkowe meble, wykładzina",
+          description : "Jeśli standardowe umeblowanie (2 wysokie stołki)  wydaje się Tobie niewystarczające - jest możliwość dodania wykładziny oraz 2 dodatkowych stołków barowych ",
+          specs : ""
+        },
+        osb : {
+          name : "Kompleksowa zabudowa OSB",
+          description : "DOTYCZY TYLKO STOISK 3x2m. Chcesz przyjść na gotowe stoisko? Oto opcja dla Twojej firmy. ",
+          specs : "Specyfikacja plików do druku: a) LADA - 100x100cm, TIFF, 120dpi (skala 1:1) b) ŚCIANKA - 300x250cm, TIFF, 120 dpi (skala 1:1)"
+        }
+      },
+
+      misc : {
+        leaflets : {
+          name : "Prawo do dystrybucji ulotek",
+          description : "Jeśli chcesz wynająć hostessy aby prowadziły działania reklamowe poza stoiskiem musisz wykupić zezwolenie organizatora.",
+          specs : ""
+        },
+        welcomepacks : {
+          name : "2 dodatkowe vouchery + 1 karta parkingowa",
+          description : "W ramach standardowej oferty stoiska otrzymujesz 4 welcome packi, w których znajdują się 4 vouchery cateringowe oraz 1 karta parkingowa. Jeśli potrzebujesz dodatkowej karty parkingowej i/lub dodatkowych voucherów obiadowych, kup ten pakiet.",
+          specs : ""
+        },
+        electricity : {
+          name : "Niezależne podłączenie prądu 3kW",
+          description : "Potrzebujesz więcej niż standardowe 300W? Wykup niezależne podłączenie prądu. ",
+          specs : ""
+        },
+        display : {
+          name : "50inch LED display",
+          description : "Delivered to your booth. Allows to connect HDMI device or display from USB pendrive",
+          specs : ""
+        }
+      },
+
+      actions : {
+
+        details : "Check details & buy"
+
+      } 
+
+    },
 
     companydata:{
 
